@@ -48,11 +48,6 @@ models = ['Mazda RX4 Wag', 'Ford Pantera L', 'Honda Civic']
 subset = cars[cars['Model'].isin(models)][['Model', 'cyl', 'gear']]
 print(subset)
 
-# Authors:
-Jerome Oldan
-1    Mazda RX4 Wag    6     4
-18     Honda Civic    4     4
-28  Ford Pantera L    8     5
 
 # Authors:
 Jerome Oldan
